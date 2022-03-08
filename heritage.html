@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="heritage.css">
+    <title>Héritage</title>
+
+    <style>
+        #monParagraphe {
+            color:red;
+        }
+    </style>
+
+</head>
+<body>
+    <p>Un paragraphe</p> 
+    <!-- Le paragraphe va apparaitre bleu, alors qu'on ne définit pas de syle sur le p, c'est parce qu'il hérite du style de body, il y a héritage vu que l'element p est un enfant de body. Si il y a conflit, alors le style choisi sera celui le plus proche de l'element -->
+
+    <!--Ordre par rapport à l'emplacement du style : 
+    
+        Avec le paragraphe ci, dessous, l'ordre de priorité pour les styles : 
+        1) la balise style dans l'element html
+        2) le style dans la balise head de la page html
+        3) le style défini dans la feuille css reliée
+    
+    -->
+
+    <p id="monParagraphe" style="color:green;">Mon paragraphe</p>
+
+</body>
+</html>
