@@ -1,0 +1,79 @@
+<!DOCTYPE html> <!-- Sert à préciser le type de document -->
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8"> <!-- Encodage-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <h1>Titre de la page</h1>
+        <p>Hello <br> World</p>
+        <a href="https://google.com" target="_blank" rel="noopener noreferrer"> Lien vers le site (nouvel onglet)</a>
+        <br>
+
+        <h2 id="ancre">Une premiere ancre</h2>
+
+        <img src="image.png" alt="Le texte qui va s'afficher si mon image ne s'affiche pas">    
+
+        <pre>
+            HTML :
+                Le HTML est un langage de balisage     tandis que le CSS est un langage de stylisme
+        </pre>
+
+        <strong>Texte important (en gras)</strong>
+        <em>Texte en italique (relativement important)</em>
+        <mark>Texte surligné</mark>
+        <!-- Nous utilisons ces élements pour donner de l'importance aux contenus, jamais pour la mise en forme. Pour cela nous utilisons CSS -->
+
+        <br>
+
+        <i> Texte </i>
+
+        <ul> <!-- List non ordonnée, Unordered List-->
+            <li>Option 1</li>
+            <li>Option 2</li>
+            <li>Option 3</li>
+            <li>Option 4</li>
+        </ul>
+
+        <ol type="i"> <!-- List ordonnée, Ordered List-->
+            <li>Option 1</li>
+            <li>Option 2</li>
+            <li>Option 3</li>
+            <li>Option 4</li>
+        </ol>
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>HTML signifie HyperText Markup Language</dd>
+            
+            <dt>CSS</dt>
+            <dd>CSS signifie Cascading Style Sheets</dd>
+        </dl>
+
+        <!-- Lien externe -->
+        <p>Cliquez <a href="https://google.com" target="_blank">ici</a> pour vous rendre sur google</p>
+
+        <!--Lien interne-->
+        <p> Cliquez <a href="./page.html" target="_blank">ici</a> pour vous rendre sur une autre page de ce site</p>
+
+        <!-- Lien vers une ancre -->
+        <p>Accès direct à notre <a href="#ancre">ancre</a></p>
+
+        <!-- Lien mail -->
+        <p><a href="mailto:jerdefrance@gmail.com">M'envoyer un mail</a></p>
+
+        <!-- Lien Download -->
+        <p><a href="file.pdf">Télécharger le fichier</a></p>
+
+        <!-- Les entités HTML -->
+        <p> Pour afficher sur la page une balise br : &lt;br&gt; </p> <!-- Balises entrante et fermante -->
+        <p> Un test &amp; des tests</p> <!-- &-->
+        <p> Pour générer des &nbsp; &nbsp; espaces </p> <!-- espaces -->
+
+    </body>
+
+</html>

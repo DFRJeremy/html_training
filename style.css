@@ -1,0 +1,44 @@
+/* Appliqué à tous les éléments html de type p */
+p {
+    color: red;
+}
+
+/* Appliqué à tous les éléments html de type p et h1 */
+p, h1 {
+    text-align: center;
+}
+
+/* Appliqué à tous les elements html de type p qui sont enfants des types div */
+div p {
+    text-decoration: underline;
+}
+
+/* Appliqué à tous les elements html de type p qui sont enfants des types div A LA RACINE UNIQUEMENT */
+div > p {
+    font-style: italic;
+}
+
+/* Appliqué au premier element p situé juste après les élements de type div */
+div + p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Appliqué aux éléments p situés après un élement div*/
+div ~ p {
+    color: red;
+}
+
+/* Appliqué à l'element correspondant à cet ID */
+#paragraphe {
+    text-align: right;
+}
+
+/* Appliqué aux élements qui ont cette classe */
+.maClasse {
+    font-size: 20px;
+}
+
+/* Appliqué aux élements p qui ont cette classe */
+p.maClasse {
+    color: blue;
+}
