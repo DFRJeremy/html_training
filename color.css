@@ -1,0 +1,32 @@
+/*
+Les couleurs : 
+Différentes syntaxes : 
+
+#rrggbb : 
+Le code héxadecimal de la couleur sur 6 digits, précédés d'un #. 
+Les deux premiers digit (rr) représentent la valeur de rouge, les deux suivants le vert (gg), et les deux derniers le bleu (bb). Ces digits peuvent évoluer de 00 à ff. En mélangeant dans des proportions différentes ces trois couleurs de base, on peut obtenir n'importe laquelle des couleurs. 
+Cette notation héxadécimale est parfaitement reconnue par tous les navigateurs. 
+
+#rgb : 
+Le code héxadecimal de la couleur sur 3 digits, précédés d'un #. Cette notation est la version simplifiée de la précédente, qui offre cependant moins de nuances de couleurs puisqu'on attribue un seul digit à chacune des couleurs
+
+#rrggbbaa : 
+Le code hexadecimal de la couleur sur 8 digits, Les deux derniers digits (aa) traduisent l'opacité de la couleur. 00 correspondant à une couleur totalement transparente, et ff a une couleur totalement opaque.
+#ff0000ff est donc un rouge totalement opaque. 
+#0000ff80 est du bleu semi-transparent
+
+#rgba :
+Variante de la notation précédente mais en m'affectant qu'un seul digit à chacune des composantes. 
+0f0f est un vert totalement opaque. 
+00f8 est un bleu semi transparent
+
+ rgb(r,g,b) => rgp(255,100,0) => même rendu qu'une notation héxa, celle-ci permet d'utiliser des valeurs décimales
+ rgba(r,g,b,a) => avec l'opacité en plus
+
+ hsl(h,s,l) => h est la teinte souhaitée, entre 0 et 360. S est la saturation, de 0 a 100, L est la luminosité, de 0 à 100
+ hsla(h,s,l,a) => avec l'opacité en plus
+
+ hwb(h,w,b) => h est la teinte, entre 0 et 360, w est le taux de blanc de 0 à 100, b est le taux de noir de 0 à 10
+ hwba(h,w,b,a) => avec l'opacité en plus
+
+ */

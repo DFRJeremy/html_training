@@ -6,18 +6,35 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Mono&display=swap" rel="stylesheet">
-        <title>Document</title>
+        <link rel="stylesheet" href="index.css">
+        <title>Index</title>
     </head>
 
     <body>
-        <h1>Titre de la page</h1>
-        <p>Hello <br> World</p>
-        <a href="https://google.com" target="_blank" rel="noopener noreferrer"> Lien vers le site (nouvel onglet)</a>
-        <br>
+        <h1>Formation HTML / CSS</h1>
+
+        <div id="liste">
+            <ul>
+                <li><a href="selecteurs.html" target="_blank">Selecteurs</a></li>
+                <li><a href="heritage.html" target="_blank">Héritage</a></li>
+                <li><a href="conteneurs.html" target="_blank">Conteneurs</a></li>
+                <li><a href="fonts.html" target="_blank">Polices</a></li>
+                <li><a href="color.html" target="_blank">Couleurs</a></li>
+            </ul>
+        </div>
+
+        <p> Divers à trier :</p> <hr>
+
+        <h5>Paragraphe :</h5>
+
+        <p>Hello World => (&lt;p&gt;Hello World&lt;/p&gt;)</p>
+        <p>Hello <br> World => (&lt;p&gt;Hello&lt;br&gt;World&lt;/p&gt;) </p>
 
         <h2 id="ancre">Une premiere ancre</h2>
 
-        <img src="image.png" alt="Le texte qui va s'afficher si mon image ne s'affiche pas">    
+        <div id="img-container">
+            <img src="image.png" alt="Le texte qui va s'afficher si mon image ne s'affiche pas">    
+        </div>
 
         <pre>
             HTML :
@@ -30,7 +47,6 @@
         <!-- Nous utilisons ces élements pour donner de l'importance aux contenus, jamais pour la mise en forme. Pour cela nous utilisons CSS -->
 
         <br>
-
         <i> Texte </i>
 
         <ul> <!-- List non ordonnée, Unordered List-->
@@ -71,9 +87,12 @@
         <p><a href="file.pdf">Télécharger le fichier</a></p>
 
         <!-- Les entités HTML -->
-        <p> Pour afficher sur la page une balise br : &lt;br&gt; </p> <!-- Balises entrante et fermante -->
-        <p> Un test &amp; des tests</p> <!-- &-->
-        <p> Pour générer des &nbsp; &nbsp; espaces </p> <!-- espaces -->
+        <div id="entitesHTML">
+            <h6 id="entitesTitre">Entités HTML : </h6>
+            <p> Pour afficher sur la page une balise br : &lt;br&gt; </p> <!-- Balises entrante et fermante -->
+            <p> Un test &amp; des tests</p> <!-- &-->
+            <p> Pour générer des &nbsp; &nbsp; espaces </p>
+        </div>
 
         <!-- Tout élement HTML est soit de type block (bloc) ou inline (en ligne) 
              Un élément de type block va toujours occuper une nouvelle ligne, et prendre toute la largeur disponible de la page

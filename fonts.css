@@ -1,0 +1,83 @@
+#p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#p2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+#p3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+#p4 {
+    font-family: cursive;
+}
+
+#p5 {
+    font-family: fantasy;
+}
+
+/*
+*Les familles de police : (font-family)
+
+Puisque toutes les polices ne sont pas disponibles sur tous les ordinateurs, css fournit un mécanisme de repli. Vous listez la police que vous voulez en premier, puis les polices qui peuvent la remplacer si elle n'est pas disponible, et vous terminez la liste avec une police générique, lesquelles sont au nombre de cinq : serif, sans-serif, monospace, cursive, fantasy
+
+Sans serif : polices normales sans évasement
+Exemples : Arial, Helvetica, Verdana …
+Serif : polices normales avec évasement
+Exemples : 
+Times, Didot, Georgia ..
+Monospace : chaque caractère à la même largeur 
+Exemples : Andale Mono, Courier New, Courier
+Cursive : polices qui ont un aspect manuscrit : 
+Exemples : Comic sans MS, Apple Chancery, Bradley Hand
+Fantasy : Polices decoratives, pour les titres ect
+Exemples : Impact, Luminari, Chalkduster
+
+
+Les tailles de police : (font-size)
+
+Deux grands types de valeurs : les tailles de polices absolues et relatives
+
+Absolu : souvent exprimées en px (pixel) ou pt (point)
+Ces tailles ci ne peuvent pas évoluer
+
+Relatives : %, em, ex
+Elles peuvent s'adapter à différents paramètres (la taille définie dans le navigateur du client pour em)
+ou la taille de l'élement parent pour le %
+
+Les unités en CSS : (px, em, %)
+
+Il existe diverses unités de mesure disponibles en CSS, elles peuvent etre classées en trois catégories
+ - Unités absolues : mm (millimetres), cm (centimètres), in (pouces), pt (point), pc (pica)
+ - Unités relatives : %, em, rem, ch, vh, vw
+ - Unités dépendantes de l'interface : px
+
+Les unités absolues correspondent à ce que l'on connaît de la mise en page "papier". Elles sont à éviter sur le web, sauf pour les styles d'impression (par exemple pour éviter les marges de pages). 
+Utilisez les unités ems pour créer des css s'adaptants à différentes echelles,
+Utilisez les ems pour définir les tailles de fonte. 
+Utilisez des unités relatives pour définir la longueur des élements de mise en page. 
+N'utilisez les longueurs absolues uniquement si les caractéristiques physiques du médium de sortie sont connues.
+
+Unités relatives : 
+
+
+	1) Pourcentages : Définit une mesure en % par rapport à la taille de l'element parent. Utile pour créer des mises en page flexibles, et pour définir des tailles de fonte. 
+	2) Unités relative à la fonte : em, ex, ch, rem
+		- Em : Unité typographique ancienne, correspondant historiquement à la largeur de la lettre "m". Par defaut, 1em est équivalent à 16px. 
+
+Unités relatives au viewport : vw, vh, vmin, vmax : 
+
+Unités relatives à la surface d'affichage. Ces unités sont relatives à la taille de la fenêtre de navigateur. Cela permet par exemple de spécifiier une taille de fonte qui s'adapte à la taille du navigateur. Un vh ou vw est équivalent à 1% de la taille de fenêtre. 
+Donc un element de height: 100 vh occupera toute la hauteur de la fenêtre. 
+
+Les pixels : (px)
+Les pixels ont été pendant longtemps l'unité la plus utilisée en webdesign, autant pour définir des mises en page que pour les tailles de fontes.
+Le postulat était que tous les écrans avaient la même résolution (72 dpi) et la même taille (1024 x 768 px). On préfère actuellement utiliser des unités relatives comme les em ou les pourcentages car les résolutions et les dimensions des écrans sont très variables. 
+
+
+*/
