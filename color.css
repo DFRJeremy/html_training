@@ -1,3 +1,43 @@
+#p1 {
+    color: blue; /* color */
+}
+
+#p2 {
+    color: #21d3ca; /* #rrggbb */
+}
+
+#p3 {
+    color: #000; /* rgb */
+}
+
+#p4 {
+    color: #ff0000ff /* rrggbbaa */; 
+}
+
+#p5 {
+    color: #00f8; /* rgba */
+}
+
+#p6 {
+    color: rgb(255,0,0); /* rgb */
+}
+
+#p7 {
+    color: rgba(255,0,0, 0.5); /* rgba */
+}
+
+#p8 {
+    color: rgb(17, 76, 202); /* hsl */
+}
+
+#p9 {
+    color: hsla(30, 48, 30, 0.2); /* hsla */
+}
+
+#p10 {
+    color: hwb(85, 10, 27); /* hwb */
+}
+
 /*
 Les couleurs : 
 Différentes syntaxes : 
