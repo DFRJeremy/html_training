@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        En CSS, tout élément est inclus dans une boite (box en anglais). Comprendre ce fonctionnement est essentiel.
+Il existe deux types de boites, les boites en bloc (bloc boxes) et les boites en lignes (inline boxes)
+Ces deux qualifications renvoient au comportement de la boîte au sein de la page et vis-à-vis des autres boites : 
+
+Si une boite est définie en bloc, elle suivra alors les règles suivantes : 
+	- La boite s'étend en largeur pour remplir totalement l'espace offert par son conteneur. 
+	Dans la plupart des cas, la boite devient alors aussi large que son conteneur occupant 100% de l'espace disponible.
+	- La boite occupe sa propre nouvelle ligne et crée un retour à la ligne, faisant ainsi passer les éléments suivants à la ligne d'après
+	- Les propriétés de largeur (width) et de hauteur (height) sont toujours respectées.
+	- Les propriétés padding, margin et border correspondantes respectivement aux écarts de padding, à la marge et à la bordure de la boite auront pour effet de repousser les autres élements. 
+	
+A moins que l'on ne décide de changer le type de positionnement de la boite en "ligne", certains éléments tels que les titres et les paragraphes utilisent le mode bloc comme propriété de postionnement exterieur par defaut.
+
+Si une boite est définie en ligne, elle suivra alors les règles suivantes : 
+
+	- La boite ne crée pas de retour à la ligne, les autres éléments se suivent donc en ligne. 
+	- Les propriétés de largeur (width) et de hauteur (height) ne s'appliquent pas
+	- Le padding les marges et les bordures verticales seront appliqués mais ne provoqueront pas de déplacement des éléments alentours
+	- Le padding, les marges et les bordures horizontales (à gauche et à droite) seront appliquées et provoqueront le déplacement des élements alentours. 
+
+Les élements a, span, em, strong sont affichées en ligne par defaut. 
+
+Le type de boit
+
+e appliqué à un élement est défini par la valeur de la propriété : display
+    </p>
+
+    <img src="01.png" alt="Image 1">
+
+    <img src="02.png" alt="Image 2">
+</body>
+</html>

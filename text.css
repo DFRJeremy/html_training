@@ -1,0 +1,62 @@
+#container {
+    width: 50%;
+    margin:auto;
+    background-color: rgb(150, 100, 100);
+}
+
+p {
+    line-height: 13px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+#p1 {
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: dashed;
+    text-indent: 30%;
+    text-shadow: 15px 3px 4px #444;
+}
+
+#p2 {
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: dotted;
+    text-indent: 10px;
+    text-shadow: -1px 1px 1px blue;
+}
+
+#p3 {
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: double;
+    letter-spacing: -20px;
+}
+
+#p4 {
+    text-align: end;
+    text-decoration: line-through;
+}
+
+#p5 {
+    text-align: justify;
+    text-decoration: overline;
+    text-indent: -10%;
+}
+
+#p6 {
+    text-decoration: solid;
+}
+
+#p7 {
+    text-decoration: underline;
+}
+
+#p8 {
+    text-decoration: wavy;
+}

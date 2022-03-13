@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Les marges : 
+Margin pour les marges exterieures, et padding pour les marges interieures. 
+
+Pour chaque élément html on peut donc définir l'espacement qui la séparera des autres éléments (margin) et les espacements intérieurs dont il peut bénéficier (padding)
+
+On peut définir les tailles en px, em, %. Tout dépend si l'on veut qu'elle soient fixes ou proportionnelles. 
+On peut détailler les tailles des marges à l'aide des suffixes -top, -right, -bottom, -left ou synthétiser les quatre d'un seul coup (la première valeur étant celle du haut, puis on tourne dans le sens des aiguilles d'une montre)
+
+ margin: 2px 5px 2em 0;
+
+Équivaut à : 
+
+ margin-top : 2px;
+ margin-right: 5px;
+ margin-bottom: 2em;
+ margin-left: 0;
+
+Si on ne met que deux valeurs, la 1ère s'appliquera au haut et au bas, la seconde à droite et à gauche.
+
+
+D'après le box-model, lorsque l'on attribue une taille à un élement de type block (à l'aide d'un width ou d'un height) les marges viennent s'ajouter à cette taille. 
+Notons le margin:auto qui permet, dans le cas d'un bloc muni d'une largeur, de centrer horitontalement un élement. 
+
+ p {
+ width: 200px;
+ padding: 40px;
+ margin: auto;
+}
+
+Le paragraphe aura une largeur totale de 200 + 2 * 40 = 280 280px et sera centré dans son élement parent
+
+    </p>
+</body>
+</html>
