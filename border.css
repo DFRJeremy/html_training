@@ -8,3 +8,30 @@
     border-width: 2px;
     border-color: rgb(255, 0, 0);
 }
+
+#div1 {
+    border-bottom: 3px solid #D1F;
+    border-right: 5px dashed #FF0;
+    border-top: 3px double #0FF;
+    border-left: 10px solid #912;
+}
+
+#div2 {
+    border: 5px solid grey;
+    border-radius: 15px;
+}
+
+#div3 {
+    border: 5px solid black;
+
+    border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 30px;
+}
+
+
+#div4 {
+    outline: 5px solid black;
+
+}
