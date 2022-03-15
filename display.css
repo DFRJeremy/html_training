@@ -1,0 +1,22 @@
+#p1 {
+    display: block;
+    background-color: rgb(255, 255, 0);
+
+}
+
+#p2 {
+    display: inline;
+    background-color: rgb(255, 128, 128);
+}
+
+#p3 {
+    display: inline-block; /* Combinaison des types inline et block */
+    background-color: rgb(255, 0, 128);
+    width: 65%;
+}
+
+#p4 {
+    display: inline-block;
+    background-color: rgb(31, 212, 197);
+    width: 34%;
+}

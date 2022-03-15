@@ -28,10 +28,17 @@
     border-top-right-radius: 10px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 30px;
-}
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
 
+    box-shadow: 20px 20px 10px green;
+}
 
 #div4 {
     outline: 5px solid black;
+}
 
+#div5 {
+    border: 5px solid black;
 }
